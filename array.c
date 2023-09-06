@@ -36,8 +36,13 @@ int main()
      }
      res=NoOfElements(arr,n);
      printf("number of even elements is %d\n",res);
+<<<<<<< HEAD
+     printf("hello vivek alias SCIENCE");
+
+=======
      summ = sumofnumbers(arr,n);
      printf("sum of numbers is %d\n",summ);
 {
+>>>>>>> e5ef17ada8c94a88ea891693c1419a143c4dbec5
      
 }
