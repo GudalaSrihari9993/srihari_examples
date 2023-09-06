@@ -15,9 +15,19 @@ int NoOfElements(int *arr,int n)
     }  
     return even;   
 }
+int sumofnumbers(int *arr,int n)
+{
+      int i,sum=0;
+      for(i=0;i<n;i++)
+      {
+          sum=sum+arr[i];
+      }
+      return sum;
+     
+}
 int main()
 {
-     int arr[100],n,res;
+     int arr[100],n,res,summ;
      printf("enter the number of elements:");
      scanf("%d",&n);
      for(int i;i<n;i++)
@@ -26,6 +36,8 @@ int main()
      }
      res=NoOfElements(arr,n);
      printf("number of even elements is %d\n",res);
-
+     summ = sumofnumbers(arr,n);
+     printf("sum of numbers is %d\n",summ);
+{
      
 }
