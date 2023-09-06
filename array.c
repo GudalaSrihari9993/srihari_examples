@@ -26,6 +26,7 @@ int main()
      }
      res=NoOfElements(arr,n);
      printf("number of even elements is %d\n",res);
+     printf("hello vivek alias SCIENCE");
 
      
 }
